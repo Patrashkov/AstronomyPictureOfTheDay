@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		86C45A8E1CA82E90001E563D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C45A8D1CA82E90001E563D /* main.m */; };
 		86C45A911CA82E90001E563D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C45A901CA82E90001E563D /* AppDelegate.m */; };
-		86C45A941CA82E90001E563D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C45A931CA82E90001E563D /* ViewController.m */; };
+		86C45A941CA82E90001E563D /* NASAAPODImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C45A931CA82E90001E563D /* NASAAPODImageViewController.m */; };
 		86C45A971CA82E90001E563D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C45A951CA82E90001E563D /* Main.storyboard */; };
 		86C45A991CA82E90001E563D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86C45A981CA82E90001E563D /* Assets.xcassets */; };
 		86C45A9C1CA82E90001E563D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C45A9A1CA82E90001E563D /* LaunchScreen.storyboard */; };
+		86C45AA51CA83018001E563D /* NASAAPODPicturiesPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C45AA41CA83018001E563D /* NASAAPODPicturiesPageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +21,14 @@
 		86C45A8D1CA82E90001E563D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		86C45A8F1CA82E90001E563D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		86C45A901CA82E90001E563D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		86C45A921CA82E90001E563D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		86C45A931CA82E90001E563D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		86C45A921CA82E90001E563D /* NASAAPODImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASAAPODImageViewController.h; sourceTree = "<group>"; };
+		86C45A931CA82E90001E563D /* NASAAPODImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASAAPODImageViewController.m; sourceTree = "<group>"; };
 		86C45A961CA82E90001E563D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		86C45A981CA82E90001E563D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86C45A9B1CA82E90001E563D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86C45A9D1CA82E90001E563D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86C45AA31CA83018001E563D /* NASAAPODPicturiesPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NASAAPODPicturiesPageViewController.h; sourceTree = "<group>"; };
+		86C45AA41CA83018001E563D /* NASAAPODPicturiesPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NASAAPODPicturiesPageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +42,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		869D12DC1DC40E1500A7B693 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				86C45A951CA82E90001E563D /* Main.storyboard */,
+				86C45A981CA82E90001E563D /* Assets.xcassets */,
+				86C45A9A1CA82E90001E563D /* LaunchScreen.storyboard */,
+				86C45A9D1CA82E90001E563D /* Info.plist */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		869D12DD1DC40E2400A7B693 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				86C45A8F1CA82E90001E563D /* AppDelegate.h */,
+				86C45A901CA82E90001E563D /* AppDelegate.m */,
+				869D12DE1DC40E3000A7B693 /* Controllers */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		869D12DE1DC40E3000A7B693 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				86C45AA31CA83018001E563D /* NASAAPODPicturiesPageViewController.h */,
+				86C45AA41CA83018001E563D /* NASAAPODPicturiesPageViewController.m */,
+				86C45A921CA82E90001E563D /* NASAAPODImageViewController.h */,
+				86C45A931CA82E90001E563D /* NASAAPODImageViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		86C45A801CA82E90001E563D = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +93,8 @@
 		86C45A8B1CA82E90001E563D /* NasaAPOD */ = {
 			isa = PBXGroup;
 			children = (
-				86C45A8F1CA82E90001E563D /* AppDelegate.h */,
-				86C45A901CA82E90001E563D /* AppDelegate.m */,
-				86C45A921CA82E90001E563D /* ViewController.h */,
-				86C45A931CA82E90001E563D /* ViewController.m */,
-				86C45A951CA82E90001E563D /* Main.storyboard */,
-				86C45A981CA82E90001E563D /* Assets.xcassets */,
-				86C45A9A1CA82E90001E563D /* LaunchScreen.storyboard */,
-				86C45A9D1CA82E90001E563D /* Info.plist */,
+				869D12DD1DC40E2400A7B693 /* Source */,
+				869D12DC1DC40E1500A7B693 /* Resource */,
 				86C45A8C1CA82E90001E563D /* Supporting Files */,
 			);
 			path = NasaAPOD;
@@ -105,6 +134,7 @@
 		86C45A811CA82E90001E563D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = NASAAPOD;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Vladislav Patrashkov";
 				TargetAttributes = {
@@ -149,9 +179,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86C45A941CA82E90001E563D /* ViewController.m in Sources */,
+				86C45A941CA82E90001E563D /* NASAAPODImageViewController.m in Sources */,
 				86C45A911CA82E90001E563D /* AppDelegate.m in Sources */,
 				86C45A8E1CA82E90001E563D /* main.m in Sources */,
+				86C45AA51CA83018001E563D /* NASAAPODPicturiesPageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +333,7 @@
 				86C45AA21CA82E90001E563D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

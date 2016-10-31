@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NASAAPODPicturiesPageViewController.h
 //  NasaAPOD
 //
 //  Created by Vladislav on 3/27/16.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
 
+@interface NASAAPODPicturiesPageViewController : UIPageViewController
 
 @end
-
